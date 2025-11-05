@@ -39,7 +39,23 @@ Le projet contient 3 fichiers principaux côté frontend/backend :
 
 -Hugging Face API : modèle MiniMaxAI pour générer les réponses
 
--localStorage & JSON : pour stocker et exporter l’historique des questions/réponses
+### Historique des questions/réponses
+- **localStorage** : stocke l’historique côté **client** pour une persistance dans le navigateur.  
+- **JSON** : stocke l’historique côté **serveur**, ce fichier contient par exemple :
+
+```json
+[
+  {
+    "timestamp": "2025-11-05T08:42:08.282Z",
+    "date": "05/11/2025",
+    "time": "09:42:08,282",
+    "question": "hi",
+    "answer": "Salut.",
+    "model": "MiniMaxAI/MiniMax-M2"
+  }
+]
+
+```
 
 ## Points bonus réalisés
 
