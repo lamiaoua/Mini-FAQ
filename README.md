@@ -11,9 +11,9 @@ Le projet utilise Next.js pour le frontend et le backend léger, et un modèle H
 
 ## Création du projet
 
-- créaction du projet Next.js avec : npx create-next-app mini-faq
+- Créaction du projet Next.js avec : npx create-next-app mini-faq
 
-- Utiliser Hugging Face pour : créer un token sur https://huggingface.co lui donner les permissions Fine-grained  et le placer l dans un fichier .env.local (HF_API_KEY=ton_token_ici).
+- Hugging Face pour : créer un token sur https://huggingface.co lui donner les permissions Fine-grained  et le placer dans un fichier .env.local (HF_API_KEY=ton_token_ici).
 
 ⚡ Le fichier .env.local permet de cacher la clé API côté serveur pour ne pas l’exposer aux utilisateurs.
 
