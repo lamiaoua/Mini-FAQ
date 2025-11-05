@@ -23,7 +23,7 @@ Le projet contient 3 fichiers principaux côté frontend/backend :
 
 - index.js:  Page principale de l'application qui importe le composant ChatComponent et gère l'affichage du chat
 
-- ChatComponent.js: c'est composant React pour l’interface de chat qui permet de poser des questions et affiche l’historique des questions/réponses en utilisant des boutons pour : Supprimer l’historique, Exporter l’historique (JSON pour le client et serveur) et bouton Historique stocké dans localStorage pour persistance côté client
+- ChatComponent.js: c'est un composant React pour l’interface de chat qui permet de poser des questions et affiche l’historique des questions/réponses en utilisant des boutons pour : Supprimer l’historique, Exporter l’historique  et bouton Historique stocké dans localStorage pour persistance côté client
 
 - ask.js (API route) est un backend léger pour appeler le modèle MiniMaxAI/MiniMax-M2 sur Hugging Face, il Reçoit la question depuis le frontend, renvoie la réponse générée et il protège la clé API côté serveur
 
@@ -153,6 +153,31 @@ Backend sécurisé pour cacher la clé Hugging Face et gérer les appels au mod�
 ![Image](https://github.com/user-attachments/assets/d62ce83c-bb3d-4d23-bfbe-7f3ca722207b)
 
 ![Image](https://github.com/user-attachments/assets/7ce0cc82-6174-4a11-92ca-d7853b0addce)
+
+
+## Comment lancer le projet
+
+1. **Cloner le dépôt** et accéder au dossier :  
+   ```bash
+   git clone <url-du-repo>
+   cd mini-faq
+   ```
+2. **Vérifier Node.js et npm** :
+```
+node -v   # Affiche la version de Node.js installée
+npm -v    # Affiche la version de npm installée
+```
+
+3. **Installer les dépendances** :
+```
+npm install
+```
+
+4.**Lancer le projet**:
+```
+npm run dev
+```
+L'application sera disponible sur ```http://localhost:3000```
 
 ## Authors
 
