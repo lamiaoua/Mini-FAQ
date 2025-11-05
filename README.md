@@ -99,9 +99,42 @@ Next.js does not support having both App Router and Pages Router routes matching
 - Problème réseau ou code côté serveur
   
 **Solution :** 
--Ici j'ai oublié de cocher `"Make calls to Inference Providers"`  et  `"Make calls to your Inference Endpoints"` lors de la génération du token. 
+Ici j'ai oublié de cocher `"Make calls to Inference Providers"`  et  `"Make calls to your Inference Endpoints"` lors de la génération du token. 
+
+### 3️⃣ Ancienne API endpoint Hugging Face: 
+**Problème :**
+```
+{
+  "error": "https://api-inference.huggingface.co is no longer supported. Please use https://router.huggingface.co/hf-inference instead."
+}
+
+```
 
 
+**Explication :**
+- L’ancienne URL n’est plus supportée → Status 410.
+- 
+
+
+**Solution :**
+- ``` https://router.huggingface.co/v1/chat/completions ``` (format OpenAI-compatible)
+- Format chat moderne avec la nouvelle API : 
+```
+javascript{
+  model: "MiniMaxAI/MiniMax-M2",
+  messages: [
+    { role: "system", content: "..." },
+    { role: "user", content: question }
+  ],
+  max_tokens: 2000,
+  temperature: 0.7
+}
+
+```
+-L'ancien format simple tilise :
+```
+javascript{ inputs: question }
+```
 
 ## Points bonus réalisés
 
