@@ -66,6 +66,26 @@ App Router and Pages Router both match path: /
 Next.js does not support having both App Router and Pages Router routes matching the same path.
 ```
 
+**Explication :**
+- Next.js 13+ propose deux systèmes de routage :
+  1. Pages Router → classique (`pages/index.js`, `pages/api/ask.js`)  
+  2. App Router → nouveau (`app/page.js`, `app/layout.js`, etc.)
+- On ne peut pas avoir les deux définissant la même route `/`.
+- Si vous avez créé le projet avec App Router par défaut et que vous avez aussi `pages/index.js`, cela crée un conflit.
+
+**Solution :**
+- Choisir un seul système de routage (Pages Router ou App Router) et supprimer l’autre dossier. (ici j'ai choisi Pages Router) 
+
+### 2️⃣ Fallback `"Sorry, I don’t have an answer for that."`
+**Problème :**
+- Arrive quand le token Hugging Face n’est pas valide ou n’a pas les permissions.
+- Modèle trop lourd ou non accessible.
+- Problème réseau ou code côté serveur
+  
+**Solution :** 
+-Ici j'ai oublié de cocher `"Make calls to Inference Providers"`  et  `"Make calls to your Inference Endpoints"` lors de la génération du token. 
+
+
 
 ## Points bonus réalisés
 
