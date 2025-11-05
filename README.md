@@ -152,6 +152,8 @@ Backend sécurisé pour cacher la clé Hugging Face et gérer les appels au mod�
 ## Aperçu de l'interface Mini FAQ:
 ![Image](https://github.com/user-attachments/assets/d62ce83c-bb3d-4d23-bfbe-7f3ca722207b)
 
+![Image](https://github.com/user-attachments/assets/7ce0cc82-6174-4a11-92ca-d7853b0addce)
+
 ## Authors
 
 - [Lamia Oualili](https://github.com/lamiaoua)
