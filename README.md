@@ -57,6 +57,16 @@ Le projet contient 3 fichiers principaux côté frontend/backend :
 
 ```
 
+## Problèmes rencontrés et solutions
+
+### 1️⃣ Conflit App Router / Pages Router
+**Problème :**
+```
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path.
+```
+
+
 ## Points bonus réalisés
 
 Enregistrement de l’historique des questions/réponses côté client (localStorage)
