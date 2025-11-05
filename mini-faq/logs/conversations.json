@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2025-11-05T08:42:08.282Z",
+    "date": "05/11/2025",
+    "time": "09:42:08,282",
+    "question": "hi",
+    "answer": "Salut.",
+    "model": "MiniMaxAI/MiniMax-M2"
+  },
+  {
+    "timestamp": "2025-11-05T13:17:31.194Z",
+    "date": "05/11/2025",
+    "time": "14:17:31,194",
+    "question": "où se trouve le maroc ",
+    "answer": "Le Maroc est situé en Afrique du Nord, dans la région du Maghreb. Il borde l'océan Atlantique à l'Ouest et la mer Méditerranée au Nord. Il partage ses frontières avec lAlgérie à l'Est et le Sahara occidental au Sud. Sa capitale est Rabat.",
+    "model": "MiniMaxAI/MiniMax-M2"
+  }
+]
