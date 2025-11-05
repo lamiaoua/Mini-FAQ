@@ -113,7 +113,10 @@ Ici j'ai oublié de cocher `"Make calls to Inference Providers"`  et  `"Make cal
 
 **Explication :**
 - L’ancienne URL n’est plus supportée → Status 410.
-- 
+- Hugging Face a adopté le format compatible OpenAI pour leur nouvelle API  parce que :
+
+       - Standard de l'industrie : Beaucoup d'outils utilisent déjà ce format
+       - Compatibilité : le code peut facilement basculer entre différents providers (Hugging Face, OpenAI, Groq, etc.)
 
 
 **Solution :**
@@ -145,3 +148,6 @@ Possibilité de supprimer l’historique via un bouton
 Possibilité d’exporter l’historique pour le client et serveur en JSON
 
 Backend sécurisé pour cacher la clé Hugging Face et gérer les appels au modèle
+
+## Aperçu de l'interface Mini FAQ:
+
