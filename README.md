@@ -27,6 +27,22 @@ Le projet contient 3 fichiers principaux côté frontend/backend :
 
 - ask.js (API route) est un backend léger pour appeler le modèle MiniMaxAI/MiniMax-M2 sur Hugging Face, il Reçoit la question depuis le frontend, renvoie la réponse générée et il protège la clé API côté serveur
 
+```
+mon-projet/
+├── pages/
+│   ├── api/
+│   │   └── ask.js                 ← Backend (API Hugging Face + logs serveur)
+│   └── index.js                   ← Page principale (juste l'import)
+├── components/
+│   └── ChatComponent.js           ← Interface + localStorage
+├── logs/
+│   └── conversations.json         ← Créé automatiquement par le serveur
+├── .env.local                     ← Ta clé API
+│   HF_API_KEY=hf_xxxxxxxxxxxxx
+└── package.json
+```
+
+
 ## Technologies utilisées: 
 
 -Visual Studio Code : éditeur de code principal
