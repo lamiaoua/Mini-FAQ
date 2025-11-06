@@ -150,7 +150,7 @@ Possibilité d’exporter l’historique pour le client et serveur en JSON
 Backend sécurisé pour cacher la clé Hugging Face et gérer les appels au modèle
 
 ## Aperçu de l'interface Mini FAQ:
-![Image](https://github.com/user-attachments/assets/d62ce83c-bb3d-4d23-bfbe-7f3ca722207b)
+![Image](https://github.com/user-attachments/assets/3ff9f0bb-d3e2-4e66-bfec-739d5186c20b)
 
 ![Image](https://github.com/user-attachments/assets/7ce0cc82-6174-4a11-92ca-d7853b0addce)
 
