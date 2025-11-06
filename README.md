@@ -157,22 +157,22 @@ Backend sécurisé pour cacher la clé Hugging Face et gérer les appels au mod�
 
 ## Comment lancer le projet
 
-1. **Cloner le dépôt** et accéder au dossier :  
+  1. **Cloner le dépôt** et accéder au dossier :  
    ```bash
    git clone <url-du-repo>
    cd mini-faq
    ```
-2. **Installer les dépendances** :
+  2. **Installer les dépendances** :
 ```
 npm install
 ```
-3. **Vérifier Node.js et npm** :
+  3. **Vérifier Node.js et npm** :
 ```
 node -v   # Affiche la version de Node.js installée
 npm -v    # Affiche la version de npm installée
 ```
 
-4. **Lancer le projet**:
+  4. **Lancer le projet**:
 ```
 npm run dev
 ```
