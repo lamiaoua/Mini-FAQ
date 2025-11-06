@@ -4,7 +4,7 @@ import ChatComponent from '../components/ChatComponent';
 export default function Home() {
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>🤖 Mini FAQ Agent avec Historique</h1>
+      <h1 style={styles.title}>🤖 Mini FAQ Agent </h1>
       
       {/* ✅ ChatComponent gère toute l'interface et la logique */}
       <ChatComponent />
